@@ -62,4 +62,17 @@ BO_ 514 PI2: 8 XXX
  SG_ VehicleSpeed : 23|16@0+ (1,0) [0|1] "" XXX
 
 BO_ 134 NI3: 8 XXX
- SG_ NEW_SIGNAL_1 : 7|16@0+ (1,0) [0|1] "" XXX
+
+BO_ 130 NI5: 8 XXX
+ SG_ NEW_SIGNAL_1 : 39|16@0+ (1,0) [0|1] "" XXX
+
+BO_ 284 NI4: 8 XXX
+
+BO_ 120 NI6: 8 XXX
+
+BO_ 121 NI7: 8 XXX
+
+BO_ 253 NEW_MSG_1: 8 XXX
+
+BO_ 304 PI3: 8 XXX
+ SG_ GearCand2 : 47|8@0+ (1,0) [0|1] "" XXX
