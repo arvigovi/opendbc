@@ -41,8 +41,9 @@ BO_ 117 NI1: 8 XXX
  SG_ BITFIELD_COLDINDICATOR_CAND : 55|8@0+ (1,0) [0|100000] "" XXX
 
 BO_ 576 Steering: 8 XXX
- SG_ SteeringSignalCandidate1 : 7|16@0+ (1,-32512) [0|31998] "" XXX
  SG_ SteeringCorrSignalX : 39|16@0+ (1,-32512) [0|50002] "" XXX
+ SG_ Steering_X : 55|16@0+ (1,0) [0|1] "" XXX
+ SG_ SteeringSignal : 7|16@0+ (1,-32512) [0|31998] "" XXX
 
 BO_ 533 WheelSpeed: 8 XXX
  SG_ Wheel2 : 23|16@0+ (1,-10000) [0|15000] "" XXX
@@ -79,3 +80,5 @@ BO_ 253 NEW_MSG_1: 8 XXX
 
 BO_ 304 PI3: 8 XXX
  SG_ GearCand2 : 47|8@0+ (1,0) [0|1] "" XXX
+
+BO_ 358 NEW_MSG_2: 8 XXX
