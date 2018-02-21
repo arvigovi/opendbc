@@ -37,9 +37,8 @@ BU_: XXX
 
 
 BO_ 117 NI1: 8 XXX
- SG_ CorrWheelSpeed : 39|16@0+ (1,-16200) [1|100000] "" XXX
- SG_ NEW_SIGNAL_1 : 55|8@0+ (1,0) [0|1] "" XXX
- SG_ NEW_SIGNAL_2 : 31|8@0+ (1,0) [0|1] "" XXX
+ SG_ NI1_X : 39|16@0+ (1,0) [1|100000] "" XXX
+ SG_ BITFIELD_COLDINDICATOR_CAND : 55|8@0+ (1,0) [0|100000] "" XXX
 
 BO_ 576 Steering: 8 XXX
  SG_ SteeringSignalCandidate1 : 7|16@0+ (1,-32512) [0|31998] "" XXX
@@ -69,9 +68,10 @@ BO_ 130 NI5: 8 XXX
 BO_ 284 NI4: 8 XXX
 
 BO_ 120 PIX: 8 XXX
+ SG_ Counter_PIX : 55|16@0+ (1,0) [0|10000000] "" XXX
+ SG_ Brakepressure : 39|16@0+ (1,0) [2|100000] "" XXX
  SG_ Cand : 7|16@0+ (1,0) [0|100000] "" XXX
- SG_ NEW_SIGNAL_1 : 23|16@0+ (1,0) [0|65535] "" XXX
- SG_ Brakepressure : 39|16@0+ (1,0) [0|1] "" XXX
+ SG_ PIX_X : 31|8@0+ (1,0) [0|10000000] "" XXX
 
 BO_ 121 NI7: 8 XXX
 
