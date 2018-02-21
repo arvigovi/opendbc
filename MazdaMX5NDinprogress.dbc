@@ -41,8 +41,8 @@ BO_ 117 NI1: 8 XXX
  SG_ NI1_NI1 : 39|16@0+ (1,0) [1|100000] "" XXX
 
 BO_ 576 Steering: 8 XXX
- SG_ SteeringSignalCandidate1 : 7|16@0+ (1,-32512) [0|31998] "" XXX
  SG_ SteeringCorrSignalX : 39|16@0+ (1,-32512) [0|50002] "" XXX
+ SG_ Steering : 7|16@0+ (1,-32512) [0|31998] "" XXX
 
 BO_ 533 WheelSpeed: 8 XXX
  SG_ Wheel2 : 23|16@0+ (1,-10000) [0|15000] "" XXX
@@ -56,6 +56,7 @@ BO_ 118 NI2: 8 XXX
 
 BO_ 357 Gear: 8 XXX
  SG_ Clutch_Neutral : 23|8@0+ (1,0) [0|255] "" XXX
+ SG_ Gear_NI : 31|8@0+ (1,0) [0|1] "" XXX
  SG_ Gear : 55|8@0+ (1,0) [0|1] "" XXX
 
 BO_ 514 PI2: 8 XXX
