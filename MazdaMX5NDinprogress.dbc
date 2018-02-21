@@ -37,13 +37,12 @@ BU_: XXX
 
 
 BO_ 117 NI1: 8 XXX
- SG_ NI1_X : 39|16@0+ (1,0) [1|100000] "" XXX
- SG_ BITFIELD_COLDINDICATOR_CAND : 55|8@0+ (1,0) [0|100000] "" XXX
+ SG_ NI1_Counter : 7|16@0+ (1,0) [0|65535] "" XXX
+ SG_ NI1_NI1 : 39|16@0+ (1,0) [1|100000] "" XXX
 
 BO_ 576 Steering: 8 XXX
+ SG_ SteeringSignalCandidate1 : 7|16@0+ (1,-32512) [0|31998] "" XXX
  SG_ SteeringCorrSignalX : 39|16@0+ (1,-32512) [0|50002] "" XXX
- SG_ Steering_X : 55|16@0+ (1,0) [0|1] "" XXX
- SG_ SteeringSignal : 7|16@0+ (1,-32512) [0|31998] "" XXX
 
 BO_ 533 WheelSpeed: 8 XXX
  SG_ Wheel2 : 23|16@0+ (1,-10000) [0|15000] "" XXX
@@ -52,11 +51,12 @@ BO_ 533 WheelSpeed: 8 XXX
  SG_ Wheel1 : 7|16@0+ (1,-10000) [0|1] "" XXX
 
 BO_ 118 NI2: 8 XXX
- SG_ NEW_SIGNAL_1 : 31|8@0+ (1,0) [0|1] "" XXX
+ SG_ NI2_Counter : 7|8@0+ (1,0) [0|1] "" XXX
+ SG_ NI2_NI : 31|8@0+ (1,0) [0|1] "" XXX
 
-BO_ 357 PI1: 8 XXX
- SG_ GearCand1 : 55|8@0+ (1,0) [0|100000] "" XXX
- SG_ NEW_SIGNAL_1 : 63|8@0+ (1,0) [0|1] "" XXX
+BO_ 357 Gear: 8 XXX
+ SG_ Clutch_Neutral : 23|8@0+ (1,0) [0|255] "" XXX
+ SG_ Gear : 55|8@0+ (1,0) [0|1] "" XXX
 
 BO_ 514 PI2: 8 XXX
  SG_ VehicleSpeed : 23|16@0+ (1,0) [0|1] "" XXX
@@ -80,5 +80,3 @@ BO_ 253 NEW_MSG_1: 8 XXX
 
 BO_ 304 PI3: 8 XXX
  SG_ GearCand2 : 47|8@0+ (1,0) [0|1] "" XXX
-
-BO_ 358 NEW_MSG_2: 8 XXX
