@@ -55,14 +55,20 @@ BO_ 118 NI2: 8 XXX
  SG_ NI2_NI : 31|8@0+ (1,0) [0|1] "" XXX
 
 BO_ 357 Gear: 8 XXX
- SG_ Clutch_Neutral : 23|8@0+ (1,0) [0|255] "" XXX
  SG_ Gear_NI : 31|8@0+ (1,0) [0|1] "" XXX
  SG_ Gear : 55|8@0+ (1,0) [0|1] "" XXX
+ SG_ Clutch_Neutral : 23|8@0+ (1,0) [0|255] "" XXX
 
-BO_ 514 PI2: 8 XXX
+BO_ 514 ThrottleRPM: 8 XXX
  SG_ VehicleSpeed : 23|16@0+ (1,0) [0|1] "" XXX
+ SG_ RPM : 7|16@0+ (1,0) [0|1000000] "" XXX
+ SG_ Throttle : 39|16@0+ (1,0) [0|1] "" XXX
+ SG_ PI2_NI1 : 55|16@0+ (1,0) [0|1] "" XXX
 
 BO_ 134 NI3: 8 XXX
+ SG_ NI3Counter : 23|16@0+ (1,0) [0|1] "" XXX
+ SG_ NEW_SIGNAL_1 : 39|16@0+ (1,0) [0|65535] "" XXX
+ SG_ NEW_SIGNAL_2 : 7|16@0+ (1,0) [0|100000] "" XXX
 
 BO_ 130 NI5: 8 XXX
  SG_ NEW_SIGNAL_1 : 39|16@0+ (1,0) [0|1] "" XXX
