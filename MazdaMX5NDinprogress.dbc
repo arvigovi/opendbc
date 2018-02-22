@@ -75,11 +75,11 @@ BO_ 130 NI5: 8 XXX
 
 BO_ 284 NI4: 8 XXX
 
-BO_ 120 PIX: 8 XXX
+BO_ 120 Brake: 8 XXX
  SG_ Counter_PIX : 55|16@0+ (1,0) [0|10000000] "" XXX
- SG_ Brakepressure : 39|16@0+ (1,0) [2|100000] "" XXX
- SG_ Cand : 7|16@0+ (1,0) [0|100000] "" XXX
  SG_ PIX_X : 31|8@0+ (1,0) [0|10000000] "" XXX
+ SG_ Cand : 7|16@0+ (1,0) [0|100000] "" XXX
+ SG_ BrakePressure : 39|16@0+ (1,0) [2|100000] "" XXX
 
 BO_ 121 NI7: 8 XXX
 
@@ -87,12 +87,17 @@ BO_ 253 NEW_MSG_1: 8 XXX
 
 BO_ 304 PI3: 8 XXX
  SG_ GearCand2 : 47|8@0+ (1,0) [0|1] "" XXX
+ SG_ NEW_SIGNAL_1 : 55|8@0+ (1,0) [0|1] "" XXX
 
 BO_ 535 NEW_MSG_2: 8 XXX
  SG_ NEW_SIGNAL_1 : 39|1@0+ (1,0) [0|1] "" XXX
 
 BO_ 542 NEW_MSG_3: 8 XXX
  SG_ NEW_SIGNAL_1 : 55|1@0+ (1,0) [0|1] "" XXX
+
+BO_ 358 GearRelated?: 8 XXX
+ SG_ NEW_SIGNAL_1 : 7|16@0+ (1,0) [0|1] "" XXX
+ SG_ NEW_SIGNAL_2 : 23|8@0+ (1,0) [0|255] "" XXX
 
 
 
