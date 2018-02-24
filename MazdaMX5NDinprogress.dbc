@@ -45,10 +45,10 @@ BO_ 576 Steering: 8 XXX
  SG_ Steering : 7|16@0+ (1,-32512) [0|31998] "" XXX
 
 BO_ 533 WheelSpeed: 8 XXX
- SG_ Wheel2 : 23|16@0+ (1,-10000) [0|15000] "" XXX
- SG_ Wheel4 : 55|16@0+ (1,-10000) [0|1] "" XXX
- SG_ Wheel3 : 39|16@0+ (1,-10000) [0|65535] "" XXX
  SG_ Wheel1 : 7|16@0+ (1,-10000) [0|1] "" XXX
+ SG_ Wheel3 : 39|16@0+ (1,-10000) [0|65535] "" XXX
+ SG_ Wheel4 : 55|16@0+ (0,-10000) [0|100] "" XXX
+ SG_ Wheel2 : 23|16@0+ (1,-10000) [0|150000] "" XXX
 
 BO_ 118 NI2: 8 XXX
  SG_ NI2_Counter : 7|8@0+ (1,0) [0|1] "" XXX
@@ -60,10 +60,10 @@ BO_ 357 Gear: 8 XXX
  SG_ Gear : 55|8@0+ (1,0) [0|1] "" XXX
 
 BO_ 514 ThrottleRPM: 8 XXX
- SG_ VehicleSpeed : 23|16@0+ (1,0) [0|1] "" XXX
  SG_ Throttle : 39|16@0+ (1,0) [0|1] "" XXX
  SG_ PI2_NI1 : 55|16@0+ (1,0) [0|1] "" XXX
  SG_ RPM : 7|16@0+ (1,0) [0|1000000] "" XXX
+ SG_ VehicleSpeed : 23|16@0+ (0.00625,0) [0|100] "" XXX
 
 BO_ 134 NI3: 8 XXX
  SG_ NI3Counter : 23|16@0+ (1,0) [0|1] "" XXX
@@ -79,7 +79,7 @@ BO_ 120 Brake: 8 XXX
  SG_ Counter_PIX : 55|16@0+ (1,0) [0|10000000] "" XXX
  SG_ PIX_X : 31|8@0+ (1,0) [0|10000000] "" XXX
  SG_ Cand : 7|16@0+ (1,0) [0|100000] "" XXX
- SG_ BrakePressure : 39|16@0+ (1,0) [2|100000] "" XXX
+ SG_ BrakePressure : 39|16@0- (1,26429) [2|100000] "" XXX
 
 BO_ 121 NI7: 8 XXX
 
@@ -93,13 +93,11 @@ BO_ 535 NEW_MSG_2: 8 XXX
  SG_ NEW_SIGNAL_1 : 39|1@0+ (1,0) [0|1] "" XXX
 
 BO_ 542 NEW_MSG_3: 8 XXX
- SG_ NEW_SIGNAL_1 : 55|1@0+ (1,0) [0|1] "" XXX
-
-BO_ 358 GearRelated?: 8 XXX
  SG_ NEW_SIGNAL_1 : 7|16@0+ (1,0) [0|1] "" XXX
  SG_ NEW_SIGNAL_2 : 23|8@0+ (1,0) [0|255] "" XXX
 
 
 
 
+CM_ SG_ 576 Steering "19750(full left) , 52250 (full right)";
 CM_ SG_ 357 Gear "Potentially more info embedded - these are the steady state levels which seem to correlate to gear state.";
